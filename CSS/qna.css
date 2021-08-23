@@ -683,12 +683,12 @@ padding-bottom: 0px;
     bottom: 0px;
     }
     .other-news .caption{
-      width: 91%;
-      bottom: 0px;
+      width: 91%!important;
+      bottom: 0px!important;
     }
 
     .many-sub .caption{ 
-      width: 91%;
+      width: 91% ;
     }
 }
 @media (max-width:992px) {
