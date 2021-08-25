@@ -6,7 +6,7 @@ const slider = document.querySelector(".slider");
     const numberOfSlides = slides.length;
     var slideNumber = 0;
 
-    //image slider next button
+    //video slider next button
     nextBtn.addEventListener("click", () => {
       slides.forEach((slide) => {
         slide.classList.remove("active");
@@ -22,10 +22,9 @@ const slider = document.querySelector(".slider");
       }
 
       slides[slideNumber].classList.add("active");
-      slideIcons[slideNumber].classList.add("active");
     });
 
-    //image slider previous button
+    //video slider previous button
     prevBtn.addEventListener("click", () => {
       slides.forEach((slide) => {
         slide.classList.remove("active");
@@ -63,7 +62,6 @@ const slider = document.querySelector(".slider");
         }
 
         slides[slideNumber].classList.add("active");
-        slideIcons[slideNumber].classList.add("active");
       }, 4000);
     }
     repeater();
@@ -78,28 +76,6 @@ const slider = document.querySelector(".slider");
       repeater();
     });
 
-  $(function () {
-    'use strict';
-    // Adjust Slider Height
-    var winH    = $(window).height(),
-        upperH  = $('.upper-bar').innerHeight(),
-        navH    = $('.navbar').innerHeight();
-    $('.slider, .carousel-item').height(winH - ( upperH + navH ));
-  
-    // Featured Work Shuffle
-    $('.featured-work ul li').on('click', function () {
-      $(this).addClass('active').siblings().removeClass('active');
-      if ($(this).data('class') === 'all') {
-        $('.shuffle-imgs .col-md').css('opacity', 1);
-      } else {
-        $('.shuffle-imgs .col-md').css('opacity', '.08');
-        $($(this).data('class')).parent().css('opacity', 1);
-      }
-    });
-  
-  });
-
-  
   $(document).ready(function(){
 
     $("#topBtn").click(function(){
