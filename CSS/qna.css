@@ -146,34 +146,6 @@ padding: 55px 10px;
         display: none;
       }
     }
-/* 
-    .social-buttons a::before {
-      content: "";
-      position: absolute;
-      width: 60px;
-      height: 60px;
-      background: linear-gradient(45deg, #a3a1a1, #0f0f0f);
-      border-radius: 50%;
-      z-index: -1;
-      transition: 0.3s ease-in;
-    }
-
-    .social-buttons a:hover::before {
-      transform: scale(0);
-    } 
- 
-    .social-buttons a i {
-      transition: 0.3s ease-in;
-    }
-
-    .social-buttons a:hover i {
-      background: linear-gradient(45deg, #a3a1a1, #0f0f0f);
-      -webkit-background-clip:text;
-      -webkit-text-fill-color: transparent;
-      transform: scale(2.2);
-    } */
-
-
 
 /*sliderrrrrrrrrrrrrr  */
 
@@ -202,11 +174,8 @@ padding: 55px 10px;
   width: 1px;
   bottom: -230px;
   height: 754px;
-  
 
 } 
-
-
 
 
 .card{
@@ -625,7 +594,7 @@ padding-bottom: 0px;
   padding: 8px;
   background-color: rgba(0, 0, 0, 0.479);
   width: 86%;
-  bottom: 4px;
+  bottom: 48px;
   text-align: center;
   font-family: Droid-bold;
   color: white;
@@ -671,9 +640,6 @@ padding-bottom: 0px;
   }
   
 
-
-
-
 @media (max-width:768px) {
   .main-news .caption{
     width: 91%;
@@ -706,11 +672,6 @@ padding-bottom: 0px;
       bottom: 72px;
     }
 }
-
-
-
-
-
 
 
 @media (min-width:768px) {
@@ -747,3 +708,4 @@ padding-left: 0;
 .switchh .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   border-color: #ff000000 !important;
 }
+
