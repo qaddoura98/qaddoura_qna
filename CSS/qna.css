@@ -19,7 +19,7 @@ ul {
 body{
     box-sizing: border-box;
     overflow-x: hidden;
-    background-color: #EBEBEB !important;
+    background-color: #EBEBEB ;
     margin: 0;
     padding: 0;
     font-family:Droid;
@@ -80,7 +80,7 @@ font-size: small;
 }
 
 .navbar-nav .active > .nav-link {
-  color: #C8C8C8 !important
+  color: #C8C8C8 !important;
 }
 .nav-item{
   padding-right:1.5rem;
@@ -203,7 +203,7 @@ height: 567px;
   margin-top: 10px;
 }
 .right-other .lft,.rgt{
-  border-top: 2px solid #3a3a3a !important;
+  border-top: 2px solid #3a3a3a ;
 }
 .first-tab{
   margin-top: 20px !important;
@@ -215,10 +215,10 @@ height: 567px;
 }
 
 .footer-com:not(:last-child){
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
 }
 .footer-com:first-child{
-  margin-top: 20px !important;
+  margin-top: 20px ;
 }
 }
 
@@ -480,12 +480,12 @@ padding: 5px;
 .sec-tab li:last-child { border-bottom: none; }
 .first-tab{
   margin: 0 ;
-  padding: 0 !important;
+  padding: 0 ;
   height: 345px;  
 }
 .sec-tab{
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0 ;
+  padding: 0 ;
   height: 350px;
   overflow-y: hidden;
 }
@@ -517,8 +517,8 @@ padding: 5px;
 .carousel-caption{
   background-color: rgba(0, 0, 0, 0.473);
   width: 100%;
-  right: 0 !important;
-  left: 0 !important;
+  right: 0 ;
+  left: 0 ;
 }
 .carousel-indicators li {
   position: relative;
@@ -694,18 +694,18 @@ padding-left: 0;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-   color: #495057 !important;
-   background-color: #ff000000 !important; 
-   border-color: #ff000000 !important;
-   border-bottom: 2px solid black !important; 
+   color: #495057;
+   background-color: #ff000000 ; 
+   border-color: #ff000000 ;
+   border-bottom: 2px solid black ; 
 }
 .switchh{
-  font-size: 1.5rem !important;
-  padding-right: .5rem !important;
-  border-bottom: 0px solid beige !important;
+  font-size: 1.5rem ;
+  padding-right: .5rem ;
+  border-bottom: 0px solid beige ;
 
 }
 .switchh .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-  border-color: #ff000000 !important;
+  border-color: #ff000000 ;
 }
 
